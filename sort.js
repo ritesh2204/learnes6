@@ -1,9 +1,12 @@
+
+//destructring
 const person = {
    name : "Ritesh",
    email : "rvritesh11@gmail.com",
    address: "maitri nagar" ,  
 };
 
+//sorting
 const {name, email, address} = person;
 
 console.table(person);
@@ -17,11 +20,14 @@ const movies = [
 
        const sortByRating = movies.sort(function(a,b){
               if(a.rating > b.rating){
-                  return -1;
+                  return 1;
               }
               else{
-                  return 1;
+                  return -1;
               }
        });
 
        console.table(sortByRating);
+
+     
+ 
