@@ -4,8 +4,8 @@ const person = {
     age:26,
     address: "risali"
 
-
 };
+
 
 var r = 10;
 const pi =3.1453;
