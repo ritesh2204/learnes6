@@ -35,3 +35,13 @@ const person1 = `
 `;
 
 document.body.innerHTML = template;
+
+const obj = {
+    name: 'AppDividend',
+    author: 'Krunal Lathiya'
+};
+const combined = {
+    ...obj,
+    age: 25
+};
+console.log(combined);
